@@ -3,8 +3,6 @@
 Code for the paper *"Interpretable Uncertainty Routing: Separating Emotion
 Ambiguity from Distribution Shift in Facial Expression Recognition"*.
 
-**arXiv**: [https://arxiv.org/abs/XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX)
-
 This repository is released for reproducibility. Model weights are **not**
 included; all results can be regenerated from the scripts below using the
 public datasets.
@@ -78,18 +76,7 @@ python -m src.eval.mmd_rafdb          # feature-space MMD (RAF-DB vs corruption)
 (Module paths assume the package is importable as `src`; adjust `PYTHONPATH` or
 the `python -m` invocation to match your layout.)
 
-## Citation
 
-If you find this code useful, please cite:
-
-```bibtex
-@article{inoshita2026uar,
-  title   = {Interpretable Uncertainty Routing: Separating Emotion Ambiguity
-             from Distribution Shift in Facial Expression Recognition},
-  author  = {Inoshita, Keito and Zhou, Jianfeng},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
-  year    = {2026}
-}
 ```
 
 ## License
